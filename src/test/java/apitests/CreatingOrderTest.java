@@ -1,8 +1,8 @@
-package ApiTests;
+package apitests;
 
-import POJO.LoginData;
-import POJO.OrderBody;
-import POJO.UserData;
+import pojo.LoginData;
+import pojo.OrderBody;
+import pojo.UserData;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
@@ -10,14 +10,11 @@ import io.restassured.response.Response;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class CreatingOrderTest {
-
-    String token;
+    private String token;
 
     @Before
     public void setUp() {

@@ -1,7 +1,7 @@
-package ApiTests;
+package apitests;
 
-import POJO.LoginData;
-import POJO.UserData;
+import pojo.LoginData;
+import pojo.UserData;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
